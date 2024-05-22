@@ -26,6 +26,8 @@ Base de dados: Dados sintéticos disponibilizados no Power Bi Discovery (Karine
 
 ### Detalhes:
 
+Dashboard Data Travels é composto por 3 painéis indicadores:
+
 - O primeiro painel é composto pelas tendências de receita ao longo do tempo, destacando-se picos sazonais, crescimento médio ou total, por dia, mês, ano e trimeste, ideal para prever os períodos mais lucrativos para a empresa;
 - O segundo painel apresenta dados relacionados ao destinos mais procurados, formas de pagamentos mais recorrentes, canais de atendimentos que geraram mais receitas, além do país-destino que mais procurado. Indicadores importantes para ofertas de pacotes, direcionamento de público, planejamento de ações de marketing e novas oportunidades;
 - O terceiro painel demonstra um cenário de árvore hierárquica com o detalhamento da Receita e como ela é distribuída com as demais variáveis, como vendedor, canais de vendas, formas de pagamento, país e tipo de viagem. Assim, é possível direcionar melhor as campanhas e estratégias de vendas;
