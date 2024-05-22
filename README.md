@@ -1,6 +1,6 @@
-![capa_anatel](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/e45f7a64-1c9a-4210-97b7-ecaf86be4318)
+![image](https://github.com/AlbertoFAraujo/PBI_Data_travels/assets/105552990/3dce7cbb-9df8-4f81-9a6e-e0ce0e09868a)
 
-**Link da aplicação:** [Dashboard_ANATEL](https://app.powerbi.com/view?r=eyJrIjoiZjM0MzA5N2UtOTUzNS00N2Q2LWFmNzYtMTM4MGM5Y2VhNjY2IiwidCI6IjFlNDMyOWIyLWNiOWYtNDM0Yy1iM2FjLTBhMmFiMTAxNTRlZiJ9)
+**Link da aplicação:** [Dashboard_data_travels](https://app.powerbi.com/view?r=eyJrIjoiOTliOTFjZWItMDk1Ny00MjgyLThmN2YtNmE0ZjRjODRjNzNhIiwidCI6IjFlNDMyOWIyLWNiOWYtNDM0Yy1iM2FjLTBhMmFiMTAxNTRlZiJ9)
 
 ### Tecnologias utilizadas: 
 | [<img align="center" alt="Power bi" height="60" width="60" src="https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/d239f769-5b2a-4cf0-8198-441a8adcbda0">](https://powerbi.microsoft.com/pt-br/desktop/) | [<img align="center" alt="Figma" height="60" width="60" src="https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/41c4197b-df11-4c43-8b84-6af9f1edbddb">](https://www.streamlit.io/) | [<img align="center" alt="DAX Studio" height="60" width="60" src="https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/e2c6fb50-3e25-4a91-91c1-5c3262c083c4">]() | [<img align="center" alt="Power Query" height="60" width="60" src="https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/b41eddea-d513-4e3b-82de-d1dab2897e88">]() | 
@@ -10,9 +10,9 @@
 
 ### Objetivo: 
 
-Analisar o desempenho das operadoras no atendimento das reclamações registradas por usuários de telecomunicações no sistema Anatel Consumidor. Indicadores como índice de solução e o tempo médio de resposta das empresas, índice de satisfação do cliente e qual resolve mais os problemas, entre outros.
+A Data Travels é uma empresa que vende pacotes de viagens e tem o objetivo de melhorar a compreensão de seus dados de vendas, identificar oportunidades de crescimento e otimizar suas estratégias de marketing.
 
-Base de dados: https://dados.gov.br/dados/conjuntos-dados/consumidor---indicadores-de-qualidade-de-atendimento
+Base de dados: Dados sintéticos disponibilizados no Power Bi Discovery (Karine Lago e Letícia S.)
 <hr>
 
 ### Etapas do projeto:
@@ -26,17 +26,24 @@ Base de dados: https://dados.gov.br/dados/conjuntos-dados/consumidor---indicado
 
 ### Detalhes:
 
-O Dashboard ANATEL  é composto por 3 painéis indicadores:
-- **Análise Geral:** Este painel permite uma análise abrangente do cenário de reclamações da ANATEL ao longo do tempo, apresentando reclamações por serviços (banda larga fixa, telefone fixo, TV por assinatura, celular pré-pago e celular pós-pago) e as principais operadoras envolvidas (Top 5). Também oferece uma visão dos principais assuntos das reclamações, variação mensal das reclamações, índice de satisfação do cliente, total de reclamações gerais e métricas de atendimento das empresas, como percentual respondido, não respondido, resolvido e não resolvido, além do tempo médio de resposta (TMR).
-- **Análise Regional:** Neste painel, é possível analisar os indicadores por período (anos, semestres, meses) e por região do Brasil, incluindo uma avaliação por entidade (canal de atendimento utilizado para realizar a avaliação da solicitação - ANATEL, Usuário WEB ou Call Center). Apresenta um mapa com a distribuição do número de reclamações por estado e uma tabela com detalhamento das informações para uma compreensão mais detalhada das reclamações.
-- **Análise Operadora:** Segmentado por operadora, este painel permite uma análise detalhada da distribuição do número de reclamações por região, estado, ano e assunto, apresentando as informações de forma organizada e hierárquica através de um gráfico TreeView.
+- O primeiro painel é composto pelas tendências de receita ao longo do tempo, destacando-se picos sazonais, crescimento médio ou total, por dia, mês, ano e trimeste, ideal para prever os períodos mais lucrativos para a empresa;
+- O segundo painel apresenta dados relacionados ao destinos mais procurados, formas de pagamentos mais recorrentes, canais de atendimentos que geraram mais receitas, além do país-destino que mais procurado. Indicadores importantes para ofertas de pacotes, direcionamento de público, planejamento de ações de marketing e novas oportunidades;
+- O terceiro painel demonstra um cenário de árvore hierárquica com o detalhamento da Receita e como ela é distribuída com as demais variáveis, como vendedor, canais de vendas, formas de pagamento, país e tipo de viagem. Assim, é possível direcionar melhor as campanhas e estratégias de vendas;
+- Ainda no terceiro painel, constra o detalhamento com indicadores de desempenho dos vendedores, total faturado por vendedor e a quantidade de vendas por canal, além do detalhamento tabelado da evolução de receitas por vendedor ao longo dos anos.
 <hr>
 
 ### Projeto Final:
 
-![capa](https://github.com/AlbertoFAraujo/PBI_Dashboard_ANATEL/assets/105552990/f9f6d9b6-7b43-4333-bfe0-dee8779e1f0f)
-![p1](https://github.com/AlbertoFAraujo/PBI_Dashboard_ANATEL/assets/105552990/958aa6c4-db09-4429-b173-b4027a131549)
-![p1-2](https://github.com/AlbertoFAraujo/PBI_Dashboard_ANATEL/assets/105552990/6011bf15-3912-420f-acb1-d3e3202e282b)
-![p2](https://github.com/AlbertoFAraujo/PBI_Dashboard_ANATEL/assets/105552990/14c6f55d-4e27-483b-af97-5401cf898d63)
-![p2-2](https://github.com/AlbertoFAraujo/PBI_Dashboard_ANATEL/assets/105552990/b9548dd0-fbb6-49ac-a1e2-27dd90c150ce)
-![p3](https://github.com/AlbertoFAraujo/PBI_Dashboard_ANATEL/assets/105552990/eefb6da5-8d9a-4220-9f3e-7c907efcabfe)
+![2024-05-21_21h58_09](https://github.com/AlbertoFAraujo/PBI_Data_travels/assets/105552990/11850390-550d-453b-b93d-abb648d3b860)
+![2024-05-21_22h07_20](https://github.com/AlbertoFAraujo/PBI_Data_travels/assets/105552990/fb7a5a0b-7829-479f-9bf7-25b24d4417e1)
+![2024-05-21_22h07_34](https://github.com/AlbertoFAraujo/PBI_Data_travels/assets/105552990/ec2f4c50-fced-4c6f-80c4-8393b00c6d67)
+![2024-05-21_22h10_35](https://github.com/AlbertoFAraujo/PBI_Data_travels/assets/105552990/30b52b0c-0760-4aa0-ada7-080bd25bdd94)
+![2024-05-21_22h07_40](https://github.com/AlbertoFAraujo/PBI_Data_travels/assets/105552990/c054a783-17d2-40cf-8b36-96c9fa864263)
+![2024-05-21_21h58_55](https://github.com/AlbertoFAraujo/PBI_Data_travels/assets/105552990/04862d51-7730-4c19-ac00-12e5163c4a7f)
+![2024-05-21_21h59_01](https://github.com/AlbertoFAraujo/PBI_Data_travels/assets/105552990/c08fe9a1-3f40-40e3-980b-8b7eb1551e64)
+![2024-05-21_21h59_52](https://github.com/AlbertoFAraujo/PBI_Data_travels/assets/105552990/ffad9484-2a63-453e-9752-c614f8e3de8f)
+![2024-05-21_22h00_06](https://github.com/AlbertoFAraujo/PBI_Data_travels/assets/105552990/940e5c0d-892e-497d-aa46-1849face6458)
+
+
+
+
